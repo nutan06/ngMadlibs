@@ -1,0 +1,43 @@
+body{
+	margin:auto;
+
+}
+.container{
+	width:70%;
+	border:2px solid #000000;
+	margin:5% auto;
+}
+.happyface{
+	background-image:url('../images/mad-lib-happy-face.png');
+	background-repeat: no-repeat;
+	width:201px;
+	height:201px;
+}
+.logo{
+	background-image:url('../images/ng-mad-libs-logo.png');
+	background-repeat: no-repeat;
+	height:200px;
+	margin-top: -150px;
+ 	margin-left: 35%;
+}
+.content{
+	width:80%;
+	margin:auto;
+	font-size:2.5em;
+	padding:1em;
+}
+input{
+	padding:0.5em;
+}
+form{
+	text-align:center;
+}
+.title{
+	font-size: 1.5em;
+	padding:0.5em;
+}
+.female-name,.job-title,.t-task,.d-task,.celebrity,.useless-skill,.adjective,.o-celebrity,.num{
+	text-decoration:underline;
+	width:500px;
+	color:#036de4;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+	<meta charset="UTF-8">
+	<title>ngMadlibs</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/madlibs.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+</head>
+<body ng-init="">
+	<div class="container">
+			<header>
+				<div class="happyface"> </div>
+				<div class="logo"></div>
+				<hr>
+			</header>
+			<form>
+			<div class="content">Please provide following words.</div>
+				<p class="title">Female Name:</p>
+				<input type="text" name="female name" ng-model="femaleName" />
+				<p class="title">Job title:</p>
+				<input type="text" name="job title"  ng-model="jobTitle" />
+				<p class="title">Tedious task</p>
+				<input type="text" name="tedious task" ng-model="tediousTask" />
+				<p class="title">Dirty Task</p>
+				<input type="text" name="dirty task"  ng-model="dirtyTask" />
+				<p class="title">Celebrity</p>
+				<input type="text" name="celebrity" ng-model="celebrity" />
+				<p class="title">Useless Skill</p>
+				<input type="text" name="useless skill" ng-model="uselessSkill" />
+				<p class="title">Adjective</p>
+				<input type="text" name="adjective"  ng-model="adjective" />
+				<p class="title">Obnoxious celebraty</p>
+				<input type="text" name="obnoxious celebrity"  ng-model="obnoxiousCelebraty" />
+				<p class="title">Any number</p>
+				<input type="number" name="huge number"  ng-model="num" />
+			</form>
+			<hr>
+			<div class="content">
+			<span class="female-name">[   {{femaleName}}]</span> was a<span class="job-title">[ {{jobTitle}}]</span> who loved technology. Although she loved parts of her job, she absolutely hated <span class="t-task">[ {{tediousTask}} ]</span> and <span class="d-task">[ {{dirtyTask}} ]</span>. So,<span class="female-name">[  {{femaleName}} ]</span>met with her life mentor <span class="celebrity">{{celebrity}} </span>who told her to learn how to <span class="useless-skill">[  {{uselessSkill}} ]</span> with Thinkful. Thinkful didn't offer a course on <span class="useless-skill">[  {{uselessSkill}} ]</span>so she studied programming instead. 
+		 
+			What a great decision! With her new skills, <span class="female-name">[  {{femaleName}} ]</span> built a(n) <span class="adjective">[ {{adjective}} ]</span>robot named <span class="o-celebrity">[ {{obnoxiousCelebraty}} ]</span>that not only loved <span class="d-task">[ {{dirtyTask}} ]</span>but did it <span class="num">[ {{num}} ]</span>times faster.
+		 	</div>
+</div>
+</body>
+</html>
