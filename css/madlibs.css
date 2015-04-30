@@ -1,45 +1,57 @@
 body{
 	margin:auto;
+	background-color:#9ACDAD;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2;
 
 }
 .container{
-	width:70%;
-	border:2px solid #000000;
+	width:100%;
+	/*border-radius:10px;
+	background-color:#ffffff;
 	margin:5% auto;
+	box-shadow: 5px 5px 10px #777777;*/
 }
 .happyface{
 	background-image:url('../images/mad-lib-happy-face.png');
 	background-repeat: no-repeat;
-	width:201px;
 	height:201px;
 }
 .logo{
 	background-image:url('../images/ng-mad-libs-logo.png');
 	background-repeat: no-repeat;
 	height:200px;
-	margin-top: -150px;
- 	margin-left: 35%;
+	
+}
+#heading{
+	font-family: 'Open Sans', sans-serif;
+	font-size:5em;
 }
 .content{
 	width:80%;
 	margin:auto;
-	font-size:2.5em;
+	font-size:2em;
 	padding:1em;
 }
 input{
 	padding:0.5em;
+	font-family: 'Indie Flower', cursive;
 }
 form{
 	text-align:center;
 }
-.title{
-	font-size: 1.5em;
-	padding:0.5em;
+.btn{
+	margin:5em;
 }
 .female-name,.job-title,.t-task,.d-task,.celebrity,.useless-skill,.adjective,.o-celebrity,.num{
-	/*text-decoration:underline;*/
-	background-color:#cccccc;
-	border:1px solid #000000;
-	width:500px;
-	color:#036de4;
+	background-color:#999999;
+	color:#ffffff;
+	border-radius:5px;
+	font-family: 'Indie Flower', cursive;
 }
+.game,.pgfront{
+	width:70%;
+	border-radius:10px;
+	background-color:#ffffff;
+	margin:5% auto;
+	box-shadow: 5px 5px 10px #777777;}
