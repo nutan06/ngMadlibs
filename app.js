@@ -12,7 +12,7 @@
 
 	}];
 });*/
-var newApp = angular.module('myApp',[])
+var newApp = angular.module('myApp',['ngAnimate'])
 
 	newApp.controller('myController',function($scope){
 		$scope.pgfront='show';

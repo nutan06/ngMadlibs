@@ -54,4 +54,32 @@ form{
 	border-radius:10px;
 	background-color:#ffffff;
 	margin:5% auto;
-	box-shadow: 5px 5px 10px #777777;}
+	box-shadow: 5px 5px 10px #777777;
+	transition:1s all ease-in;
+}
+.game.ng-hide-add,
+.game.ng-hide-remove {
+  display: block !important;
+}
+.game.ng-hide-remove,
+.game.ng-hide-add.ng-hide-add-active {
+ margin-top:100px;
+ opacity: 0;
+}
+.game.ng-hide-remove.ng-hide-remove-active,
+.game.ng-hide-add {
+  margin-top:0px;
+  opacity: 1;
+}
+.pgfront.ng-hide-add,
+.pgfront.ng-hide-remove {
+  display: block !important;
+}
+.pgfront.ng-hide-remove,
+.pgfront.ng-hide-add.ng-hide-add-active {
+ opacity: 0;
+}
+.pgfront.ng-hide-remove.ng-hide-remove-active,
+.pgfront.ng-hide-add {
+  opacity: 1;
+}
